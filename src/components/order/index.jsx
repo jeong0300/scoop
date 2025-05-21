@@ -10,7 +10,7 @@ const OrderColumn = ({ order, setOrder }) => {
     }
   }
 
-  const cardsPerPage = 3;
+  const cardsPerPage = 12;
   const paginated = order.slice(page * cardsPerPage, (page + 1) * cardsPerPage);
 
   return (
